@@ -16,7 +16,7 @@
 
     <LinearLayout
         android:id="@+id/linear_title"
-        android:paddingVertical="30dp"
+        android:paddingVertical="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#4CAF50"
@@ -46,7 +46,7 @@
     <TextView
         android:id="@+id/text_view_content"
         android:paddingHorizontal="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:text="Nội dung"
         app:layout_constraintTop_toBottomOf="@+id/linear_title"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,9 +55,9 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:textSize="18sp"
+        android:textSize="12sp"
         android:layout_marginBottom="15dp"
-        android:paddingVertical="15dp"
+        android:paddingVertical="10dp"
         android:id="@+id/text_view_yes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/linear_end"
@@ -67,13 +67,13 @@
         android:background="@drawable/button_yes"
         android:text="This is Funny!"
         android:textColor="#FFFFFF"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:textSize="18sp"
+        android:textSize="12sp"
         android:layout_marginBottom="15dp"
-        android:paddingVertical="15dp"
+        android:paddingVertical="10dp"
         android:id="@+id/text_view_no"
         app:layout_constraintStart_toEndOf="@id/text_view_yes"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@
         android:background="@drawable/button_no"
         android:text="This is not funny."
         android:textColor="#FFFFFF"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"/>
 
     <LinearLayout
@@ -99,13 +99,13 @@
         <TextView
             android:paddingHorizontal="20dp"
             android:text="This app is created as part of Hlsolutions program. The materials contained on this website are provided for general information only and do not constitute any form of advice. HLS assumes no reponsibility for the accuracy of any particular statement and accepts no liability for any loss or damage which may arise from reliance on the information contained on this site."
-            android:textSize="12sp"
+            android:textSize="10sp"
             android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:textSize="18sp"
+            android:textSize="12sp"
             android:paddingVertical="10dp"
             android:text="Copyright 2021 HLS"
             android:layout_width="wrap_content"
