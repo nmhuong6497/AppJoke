@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Joke {
     private int id;
-    private String Content;
+    private String content;
 
     public Joke(int id, String content) {
         this.id = id;
-        Content = content;
+        this.content = content;
     }
 
     public int getId() {
@@ -22,11 +22,11 @@ public class Joke {
     }
 
     public String getContent() {
-        return Content;
+        return content;
     }
 
     public void setContent(String content) {
-        Content = content;
+        this.content = content;
     }
 
     public static List<Joke> getMock() {
